@@ -1,0 +1,106 @@
+.card__image {
+    height: 413px;
+    width: 413px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.card__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.card__like-btn {
+    background-image: url(../images/like.svg);
+    width: 23px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    opacity: 40%;
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 500px;
+    font-style: medium;
+    margin: 0;
+    line-height: 120%;
+    letter-spacing: 0%;
+    max-width: 353px;
+    height: 24px;
+    top: 425px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@media screen and (max-width: 1320px) {
+    .card__image {
+        height: 413px;
+        width: 413px;
+        object-fit: cover;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .card__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card__like-btn {
+        background-image: url(../images/like.svg);
+        width: 23px;
+        height: 20px;
+        border: none;
+        background-color: transparent;
+        opacity: 40%;
+    }
+
+    .card__title {
+        font-size: 20px;
+        font-weight: 500px;
+        font-style: medium;
+        line-height: 120%;
+        letter-spacing: 0%;
+        max-width: 353px;
+        height: 24px;
+        top: 425px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .card {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    .card__image {
+        width: 288px;
+        height: 288px;
+        margin: 0 auto;
+    }
+
+    .card__title {
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .card__content {
+        width: 288px;
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: visible;
+        position: relative;
+        margin-bottom: 0;
+        margin: 12px auto;
+    }
+}
